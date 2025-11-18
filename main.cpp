@@ -3,8 +3,8 @@
 
     Name: Paul Soy
     Date: November 17, 2025
-    Purpose: Challenge: Bank Account Management System
-    Assignment: Lab Activities: Objects and Classes I
+    Purpose: Challenge: Convert, Templatize, and Circularize
+    Assignment: Circular Linked List Lab
 
 */
 
