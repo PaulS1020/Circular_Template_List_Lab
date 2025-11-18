@@ -5,6 +5,7 @@
 #ifndef CIRCULARTEMPLATEDLIST_MEDIA_H
 #define CIRCULARTEMPLATEDLIST_MEDIA_H
 #include <string>
+#include <iostream>
 
 class Media {
 protected:

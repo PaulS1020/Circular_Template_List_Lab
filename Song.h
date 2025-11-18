@@ -7,20 +7,16 @@
 #include <iostream>
 #include "Media.h"
 
-
-
 // === 2. Derived Media Type (Song) ===
 // The Song class now derives from the Media base class.
 class Song : public Media {
 private:
     std::string artist;
-
 public:
-    // Constructor
+    // Constructor: initialize Media and artist
     Song(const std::string& t, const std::string& a, int d)
-    : Media(t, d) {}
+        : Media(t, d), artist(a) {}
 
-    //get the artist
     std::string getArtist() const;
 
     // Override toString() from the Media base class.
@@ -30,5 +26,5 @@ public:
     void play() const override;
 };
 
-
 #endif //CIRCULARTEMPLATEDLIST_SONG_H
+

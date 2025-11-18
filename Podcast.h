@@ -8,21 +8,16 @@
 #include <iostream>
 #include "Media.h"
 
-// Represents a podcast episode, showing how multiple types can share the list.
 class Podcast : public Media {
 private:
     std::string episodeTitle;
     std::string host;
     int episodeNumber;
 public:
-    // Constructor
-    Podcast(const std::string& t, const std::string& h, const int d)
-    : Media(t, d) {}
+    Podcast(const std::string& t, const std::string& h, int d)
+        : Media(t, d), episodeTitle(t), host(h), episodeNumber(d) {}
 
-    // Override toString() from the Media base class.
     std::string toString() const override;
-
-    // Override play() to provide Podcast-specific behavior.
     void play() const override;
 };
 
