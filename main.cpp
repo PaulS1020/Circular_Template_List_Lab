@@ -1,3 +1,13 @@
+
+/*
+
+    Name: Paul Soy
+    Date: November 17, 2025
+    Purpose: Challenge: Bank Account Management System
+    Assignment: Lab Activities: Objects and Classes I
+
+*/
+
 #include <iostream>
 #include <string>
 #include "Media.h"
